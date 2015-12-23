@@ -1,6 +1,6 @@
 ## Laravel Experiment
 
-This repository is my experiments about laravel framework.
+This repository is my experiments about laravel framework. So there are branches in every experiment.
 
 ## Contributing
 
