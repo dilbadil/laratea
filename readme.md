@@ -3,15 +3,14 @@
 This repository is my experiments about laravel framework. So there are branches in every experiment.
 
 ## Get Started
-First, see all branches.
+You may checkout to branch quickstart-intermediate
 ```php
-git branch
+git checkout quickstart-intermediate
 ```
-You may checkout to branch that you expected (for example quickstart-basic).
+Run migrate
 ```php
-git checkout quickstart-basic
+php artisan migrate
 ```
-Then, you have to read README.md to get started.
 
 ## Contributing
 
