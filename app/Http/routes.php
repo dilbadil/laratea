@@ -27,5 +27,12 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+});
+
+Route::group(['middleware' => ['api']], function () {
+
+    /** JWT Token **/
+    Route::post('api/register', 'TokenAuthController@register');
+    Route::post('api/authenticate', 'TokenAuthController@authenticate');
+    Route::get('api/authenticate/user', 'TokenAuthController@getAuthenticatedUser');
 });
