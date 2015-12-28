@@ -35,4 +35,7 @@ Route::group(['middleware' => ['api']], function () {
     Route::post('api/register', 'TokenAuthController@register');
     Route::post('api/authenticate', 'TokenAuthController@authenticate');
     Route::get('api/authenticate/user', 'TokenAuthController@getAuthenticatedUser');
+
+    /** todo **/
+    Route::resource('api/todo', 'TodosController');
 });
