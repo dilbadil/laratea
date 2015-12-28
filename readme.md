@@ -3,15 +3,20 @@
 This repository is my experiments about laravel framework. So there are branches in every experiment.
 
 ## Get Started
-First, see all branches.
+First, checkout to the branch
 ```php
-git branch
+git checkout token-based-auth
 ```
-You may checkout to branch that you expected (for example quickstart-basic).
+Third, install modules on public directory.
 ```php
-git checkout quickstart-basic
+cd public
+npm install
 ```
-Then, you have to read README.md to get started.
+Then, start server on root project.
+```php
+php artisan serv
+```
+Finaly, start browsing (open localhost:8000/index.html)
 
 ## Contributing
 
