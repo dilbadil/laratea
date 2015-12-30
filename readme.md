@@ -3,15 +3,14 @@
 This repository is my experiments about laravel framework. So there are branches in every experiment.
 
 ## Get Started
-First, see all branches.
+Install dependencies
 ```php
-git branch
+composer install
 ```
-You may checkout to branch that you expected (for example quickstart-basic).
+Migrate database
 ```php
-git checkout quickstart-basic
+php artisan migrate
 ```
-Then, you have to read README.md to get started.
 
 ## Contributing
 
